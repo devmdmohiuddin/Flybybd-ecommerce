@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header_top">
+        <div class="header_top_left">
+            <h6><a href="signup.html"> <span class="link">Register</span> to avail discount </a></h6>
+        </div>
+        <ul class="header_top_right">
+            <li><a href="#">Today's deals</a></li>
+            <li><a href="#">Gift cards</a></li>
+            <li><a href="#">Customer service</a></li>
+        </ul>
+    </div>
+    <div class="signup-container">
+    <div class="wrapper__area" id="wrapper_Area">
+        <!-- Forms Area -->
+        <div class="forms__area">
+          <!-- Login Form -->
+          <form class="login__form" id="loginForm">
+            <!-- Form Title -->
+            <h1 class="form__title">Sign In!</h1>
+            <!-- inputs Groups -->
+            <div class="input__group">
+              <label class="field">
+                <input type="text" name="username" placeholder="Username" id="loginUsername">
+              </label>
+              <span class="input__icon"><i class="fas fa-user"></i></span>
+              <small class="input__error_message"></small>
+            </div>
+            <div class="input__group">
+              <label class="field">
+                <input type="password" name="password" placeholder="Password" id="loginPassword">
+              </label>
+              <span class="input__icon"><i class="fas fa-lock"></i></span>
+              <span class="showHide__Icon"><i class="fas fa-eye-slash"></i></span>
+              <small class="input__error_message"></small>
+            </div>
+            <div class="form__actions">
+              <label for="checkboxInput" class="remeber_me">
+                <input type="checkbox" id="checkboxInput">
+                <span class="checkmark"></span>
+                <span>Remeber Me</span>
+              </label>
+              <div class="forgot_password">Forgot Password?</div>
+            </div>
+            <!-- Login Button -->
+            <button type="submit" class="submit-button" id="loginSubmitBtn"><a href="home.html"> Sign in </a></button>
+            <!-- Alternate Login -->
+            <div class="alternate-login">
+              <div class="link">
+                <i class="fab fa-google"></i>
+                <span>Google</span>
+              </div>
+              <div class="link">
+               <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+              </div>
+            </div>
+          </form> <!-- End Login Form -->
+      
+          <!-- Sign Up Form -->
+          <form class="sign-up__form" id="signUpForm">
+            <!-- Form Title -->
+            <h1 class="form__title">Sign Up!</h1>
+            <!-- inputs Groups -->
+            <div class="input__group">
+              <label class="field">
+                <input type="text" name="username" placeholder="Username" id="signUpUsername">
+              </label>
+              <span class="input__icon"><i class="fas fa-user"></i></span>
+              <small class="input__error_message"></small>
+            </div>
+            <div class="input__group">
+              <label class="field">
+                <input type="text" name="email" placeholder="Email@example.com" id="signUpEmail">
+              </label>
+              <span class="input__icon"><i class="fas fa-at"></i></span>
+              <small class="input__error_message"></small>
+            </div>
+            <div class="input__group">
+              <label class="field">
+                <input type="password" name="password" placeholder="Password" id="signUpPassword">
+              </label>
+              <span class="input__icon"><i class="fas fa-lock"></i></span>
+              <span class="showHide__Icon"><i class="bx bx-hide"></i></span>
+              <small class="input__error_message"></small>
+            </div>
+            <div class="input__group confirm__group">
+              <label class="field">
+                <input type="password" name="confirm_password" placeholder="Confirm Password" id="signUpConfirmPassword">
+              </label>
+              <span class="input__icon"><i class="fas fa-lock"></i></span>
+              <span class="showHide__Icon"><i class="fas fa-eye-slash"></i></span>
+              <small class="input__error_message"></small>
+            </div>
+            <!-- Sign Up Button -->
+            <button type="submit" class="submit-button" id="signUpSubmitBtn">Sign Up</button>
+            <!-- Alternate Login -->
+            <div class="alternate-login">
+              <div class="link">
+                <i class="fab fa-google"></i>
+                <span>Google</span>
+              </div>
+              <div class="link">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+              </div>
+            </div>
+          </form> <!-- End Sign Up Form -->
+        </div><!-- End Forms Area -->
+      
+        <!-- Aside Area -->
+        <div class="aside__area" id="aside_Area">
+          <div class="login__aside-info">
+            <h4 style="color: white;">Hello</h4>
+            <img src="https://d.top4top.io/p_1945xjz2y1.png" alt="Image">
+            <p>Enter your personal details and start journey with us</p>
+            <button id="aside_signUp_Btn">Sign Up</button>
+          </div>
+          <div class="sign-up__aside-info">
+            <h4 style="color: white;">Welcome</h4>
+            <img src="https://e.top4top.io/p_1945sidbp2.png" alt="Image">
+            <p>To Keep connected with us please login with your personal info</p>
+            <button id="aside_signIn_Btn">Sign In</button>
+          </div>
+        </div>
+      </div>
+      <!-- End Wrapper Area -->
+    </div>
+
+    <div class="copyright_section" style="padding-top: 5rem;">
+        <h6>Copyright ©2021 All rights reserved | This template is made with love by
+           <span class="sharan">Sharan</span></h6>
+    </div>
+
+      <script src="signup.js"></script>
+</body>
+</html>
